@@ -11,8 +11,9 @@
 
         }
         table{
-            width: 50%;
+            width: 100%;
             font-size: 16px;
+            
             
             
             margin-left: auto;
@@ -32,7 +33,8 @@
 <body>
     <h1>Lists</h1>
     <p>an abstract data type that represents a finite number of ordered values, where the same value may occur more than once. </p>
-    <p>anotjer line</p>
+    <p>one way to implement a list in jva is to use an ArrayList. a number of different operation can be poerformed on an ArrayList.these are shown in the table below</p>
+    <p>these examples below are based of the following lists wit the identifier as myList:45,66,41,13,19,8</p>
     <table border="1">
         <tr>
             <th>list operation</th>
@@ -43,21 +45,35 @@
         <tr>
             <td>listEmpty()</td>
             <td>test for empty lists </td>
-            <td>myListEmpty()</td>
+            <td>myList.Empty()</td>
             <td>False</td>
         </tr>
         <tr>
-            <td>num2</td>
-            <td>num2</td>
-            <td>num2</td>
-            <td>num2</td>
+            <td>add()</td>
+            <td>adds another number to the list</td>
+            <td>myList.add(12)</td>
+            <td>45,66,41,13,19,8,12</td>
         </tr>
         <tr>
-            <td>num2</td>
-            <td>num2</td>
-            <td>num2</td>
-            <td>num2</td>
+            <td>remove()</td>
+            <td>removes an item in the list</td>
+            <td>myLst.remove(45)</td>
+            <td>66,41,13,19,8</td>
         </tr>
+        <tr>
+            <td>get()</td>
+            <td>gets an item in the list</td>
+            <td>myLst.get(66)</td>
+            <td> 66</td>
+        </tr>
+        <tr>
+            <td>append()</td>
+            <td>takes an object as an argument and adds it to the end of an existing list</td>
+            <td>myLst.append(4)</td>
+            <td>45,66,41,13,19,8,4 </td>
+        </tr>
+
+
 
     </table>
 </body>
